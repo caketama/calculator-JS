@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      JavaScript program to calculate multiplication and division of two numbers
+    </title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <!-- Similarly to the getElementById exercise, create a basic calculator which takes two inputs 
+    then either multiplies or divides the two given values -->
+    <!-- Enter HTML code here -->
+    <label for="calculator">Let's do some math!</label>
+    <form>
+      <label for="firstNumber">First number</label>
+      <input type="number" id="m1" name="First number" />
+      <br />
+      <label for="secondNumber">Second Number</label>
+      <input type="number" id="m2" name="Second number" />
+      <br />
+      <input type="submit" onclick="multiply()" value="multiply" />
+      <input type="submit" onclick="divide()" value="divide" />
+      <br />
+    </form>
+    <div id="result">Result: <br /></div>
+    <script src="script.js"></script>
+  </body>
+</html>
